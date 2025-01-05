@@ -24,6 +24,7 @@ public class ScriptLoader {
                         new ScriptAE2Stuff(),
                         new ScriptAE2WC(),
                         new ScriptAFSU(),
+                        new ScriptAkashicTome(),
                         new ScriptAmunRa(),
                         new ScriptAppliedEnergistics2(),
                         new ScriptArchitectureCraft(),
@@ -51,6 +52,7 @@ public class ScriptLoader {
                         new ScriptComputronics(),
                         new ScriptCoreMod(),
                         new ScriptDraconicEvolution(),
+                        new ScriptEFR(),
                         new ScriptEMT(),
                         new ScriptEnderIO(),
                         new ScriptEnderZoo(),
@@ -64,6 +66,7 @@ public class ScriptLoader {
                         new ScriptForgeMultipart(),
                         new ScriptGadomancy(),
                         new ScriptGalacticraft(),
+                        new ScriptGalaxySpace(),
                         new ScriptGendustry(),
                         new ScriptGenetics(),
                         new ScriptGraviSuite(),
@@ -117,6 +120,7 @@ public class ScriptLoader {
                         new ScriptWarpTheory(),
                         new ScriptWirelessRedstone(),
                         new ScriptWitchery(),
+                        new ScriptTB(),
                         ScriptZZClientOnly.instance));
 
         // Java somehow tries to load XU / TiC class when instantiating this class

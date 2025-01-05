@@ -3,7 +3,7 @@ package com.dreammaster.scripts;
 import static gregtech.api.enums.Mods.HardcoreEnderExpansion;
 import static gregtech.api.enums.Mods.IndustrialCraft2;
 import static gregtech.api.enums.Mods.OpenComputers;
-import static gregtech.api.util.GT_ModHandler.getModItem;
+import static gregtech.api.util.GTModHandler.getModItem;
 
 import java.util.Arrays;
 import java.util.List;
@@ -26,6 +26,12 @@ public class ScriptOpenComputers implements IScriptLoader {
 
     @Override
     public void loadRecipes() {
+        addShapelessRecipe(
+                getModItem(OpenComputers.ID, "item", 1, 23, missing),
+                ItemList.Circuit_Parts_Transistor.get(1));
+        addShapelessRecipe(
+                ItemList.Circuit_Parts_Transistor.get(1),
+                getModItem(OpenComputers.ID, "item", 1, 23, missing));
         ExtremeCraftingManager.getInstance().addExtremeShapedOreRecipe(
                 getModItem(OpenComputers.ID, "item", 1, 69, missing),
                 "---------",
