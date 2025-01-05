@@ -1607,7 +1607,7 @@ public class AssemblingLineRecipes implements Runnable {
                 4,
                 new Object[] { tectech.thing.CustomItemList.Machine_Multi_Transformer.get(1),
                         AEApi.instance().definitions().materials().singularity().maybeStack(4).get(),
-                        ItemList.Field_Generator_UHV.get(4), ItemList.Emitter_UHV.get(4),
+                        ItemList.Sensor_UHV.get(4), ItemList.Emitter_UHV.get(4),
                         ItemList.Casing_Fusion_Coil.get(4), new Object[] { OrePrefixes.circuit.get(Materials.UHV), 2L },
                         tectech.thing.CustomItemList.LASERpipe.get(64), },
                 new FluidStack[] { new FluidStack(Materials.Neutronium.mStandardMoltenFluid, 144 * 12),
